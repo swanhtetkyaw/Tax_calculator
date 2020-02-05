@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tax Calculator App</title>
+	<link rel="stylesheet" type="text/css" href="tax_calculator.css">
+</head>
+<body>
+	<div id="center">
+		<div id="container">
+			<div id="input-form">
+				<label for="monthly-salary">Monthly Salary</label>
+				<input type="text" name="salary" placeholder="Enter your salary..." id="monthly-salary">
+			</div>
+			<div>
+				<h4>Family Members staying together</h4>
+
+				<input type="checkbox" name="father" id="father">
+				<label for="father">Father</label>
+
+				<input type="checkbox" name="mother" id="mother">
+				<label for="mother">Mother</label>
+				
+				<input type="checkbox" name="wife" id="wife">
+				<label for="wife">Wife</label>
+				
+			    
+			</div>
+			<div id="child-count">
+				<label>No.of children</label>
+				<input type="text" id="children">	
+			</div>
+			<div id="button">
+				<button onclick="tax()">Calculate Tax</button>
+			</div>
+			<hr>
+			<div id="Result">
+				<h2>Result</h2>
+				<div id="result">
+					<label>Annual Salary</label>
+					<input type="text" id="annualSalary">
+					<br><br>
+					<label>Personal relief</label>
+					<input type="text" id="personalRelief">
+					<br><br>
+					<label>Parent relief</label>
+					<input type="text" id="parentRelief">
+					<br><br>
+					<label>Wife relief</label>
+					<input type="text" id="wifeRelief">
+					<br><br>
+					<label>child relief</label>
+					<input type="text" id="childRelief">
+					<br><br>
+					<label>Taxable Income</label>
+					<input type="text" id="taxableIncome">
+					<br><br>
+					<label>Total Tax</label>
+					<input type="text" id="totalTax">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<table class="table">
+		<thead>
+			<th>Descrition</th>
+			<th>Rate</th>
+			<th>Taxable</th>
+			<th>Tax Amount(MMK)</th>
+		</thead>
+		<tbody>
+			
+		</tbody>
+	</table>
+
+<script type="text/javascript" src="calc_tax.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#center {
+	text-align: center;
+}
+
+#container {
+
+	width: 300px;
+	display: inline-block;
+	border: 10px solid black;
+	margin-top: 20px;
+}
+
+#input-form {
+	text-align: center;
+}
+
+#input-form label {
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	display: block;
+}
+
+#input-form input {
+	height: 30px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#result input {
+	margin-left: 0;
+}
+
+
+
+
+h4 {
+	margin-bottom: 10px;
+}
+
+#child-count {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#button {
+	text-align: center;
+}
+
+button {
+	margin-bottom: 10px;
+	cursor: pointer;
+	padding:3px;
+	font-size: 13px;
+}
+
+
+
+
+
